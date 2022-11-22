@@ -297,7 +297,7 @@ gulp.task('serve', () => {
         port: port,
         host: host,
         livereload: true,
-        index: "retro2.html",
+        index: "index.html",
     })
 
     gulp.watch(['*.html', '*.md'], gulp.series('reload'))
